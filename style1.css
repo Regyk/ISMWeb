@@ -1,0 +1,18 @@
+#centerLayer {
+    position: absolute;
+    width: 280px;
+    height: 180px;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
+    background: seagreen;
+    border: solid 1px black;
+    padding: 10px;
+    overflow: auto;
+}
+#imj
+{
+    height: 50px;
+    width: 250px;
+}

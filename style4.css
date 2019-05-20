@@ -1,0 +1,53 @@
+nav > ul
+{
+    float: left;
+    width: 120px;
+    background: #aaaaaa;
+}
+ul.vertical > li
+{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    height: 100%;
+}
+ul.vertical > li >a
+{
+    display: block;
+    padding: 15px;
+    margin-top: 12px;
+    color: darkred;
+    text-decoration: none;
+    overflow: hidden;
+}
+header > h1
+{
+    background: seagreen;
+    text-align: center;
+}
+h2
+{
+    background: aquamarine;
+}
+img
+{
+    width: 200px;
+    float: left;
+    overflow: hidden;
+    padding: 12px;
+}
+#news article
+{
+    background: antiquewhite;
+    overflow: hidden;
+    padding: 15px 10px;
+    border-bottom: 1px dashed #aaa;
+}
+#news article > div{
+    margin-left: 200px;
+}
+footer{
+    background: aqua;
+    clear: left;
+    padding: 12px;
+}
