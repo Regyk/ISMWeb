@@ -1,0 +1,25 @@
+ul{
+    background: #5d86ff;
+    border: blue 1px solid;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+    border: blue 2px solid;
+    background: #5d86ff;
+    color: white;
+}
+li:hover{
+    color: #5d86ff;
+    background: white;
+}
+.flex-container{
+
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    display: flex;
+}
+.flex-item {
+    max-width: 100px;
+}

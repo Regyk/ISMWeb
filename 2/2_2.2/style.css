@@ -1,0 +1,33 @@
+ul{
+    background: #5d86ff;
+}
+li{
+    list-style-type: none;
+    height: 30px;
+    margin-top: 4px;
+
+    color: white;
+    text-align: center;
+}
+.flex-container{
+    flex-direction: row;
+    display: flex;
+}
+.flex-item {
+padding: 5px;
+}
+@media (min-width: 800px) {
+    .flex-container {
+        justify-content: flex-end;
+    }
+}
+@media (max-width: 800px) {
+    .flex-container {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 500px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}

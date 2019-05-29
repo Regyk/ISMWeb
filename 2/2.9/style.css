@@ -1,0 +1,21 @@
+
+li{
+    list-style-type: none;
+    padding: 5px;
+    margin-left: 0;
+    border: blue 2px solid;
+    background: #5d86ff;
+    color: white;
+}
+li:hover{
+    color: #5d86ff;
+    background: white;
+}
+.flex-container{
+
+    flex-direction: column;
+    justify-content:start;
+    display: flex;
+}
+.flex-item {
+}

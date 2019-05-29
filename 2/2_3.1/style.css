@@ -1,0 +1,76 @@
+header {
+    position: fixed;
+    padding: 10px;
+    left: 0; right: 0; bottom: 90%; top: 0%;
+    width: 100%;
+    background: #00fff0;
+    text-align: center;
+}
+footer {
+    position: fixed;
+    left: 0; right: 0; bottom: 0%; top: 90%;
+    padding: 10px;
+    width: 100%;
+    background: blue;
+    text-align: center;
+}
+@media (min-width: 800px) {
+    .aside_1{
+        background: #ff33e0;
+        text-align: center;
+        position: fixed;
+        left: 0;right: 80%; bottom: 10%; top: 10%;
+    }
+    main{
+        background: #31ff7f;
+        text-align: center;
+        position: fixed;
+        left: 20%;right: 20%; bottom: 10%; top: 10%;
+    }
+    .aside_2{
+        background: #fdff1f;
+        text-align: center;
+        position: fixed;
+        left: 80%;right: 0%; bottom: 10%; top: 10%;
+    }
+}
+@media (max-width: 800px) {
+    .aside_1{
+        background: #ff33e0;
+        text-align: center;
+        position: fixed;
+        left: 0;right: 60%; bottom: 20%; top: 10%;
+    }
+    main{
+        background: #31ff7f;
+        text-align: center;
+        position: fixed;
+        left: 40%;right: 0%; bottom: 20%; top: 10%;
+    }
+    .aside_2{
+        background: #fdff1f;
+        text-align: center;
+        position: fixed;
+        left: 0; right: 0; bottom: 10%; top: 80%;
+    }
+}
+@media (max-width: 500px) {
+    .aside_1{
+        background: #ff33e0;
+        text-align: center;
+        position: fixed;
+        left: 0; right: 0; bottom: 80%; top: 10%;
+    }
+    main{
+        background: #31ff7f;
+        text-align: center;
+        position: fixed;
+        left: 0%;right: 0%; bottom: 20%; top: 20%;
+    }
+    .aside_2{
+        background: #fdff1f;
+        text-align: center;
+        position: fixed;
+        left: 0; right: 0; bottom: 10%; top: 80%;
+    }
+}

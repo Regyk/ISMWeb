@@ -1,0 +1,36 @@
+header.flex-item{
+    width: 100%;
+    background: blue;
+    text-align: center;
+}
+footer.flex-item{
+    width: 100%;
+    background: #00fff0;
+    text-align: center;
+}
+main.flex-item{
+    width: 600px;
+    text-align: center;
+    background: #31ff7f;
+}
+aside.flex-item{
+    min-width: 200px;
+    text-align: center;
+    background: #fdff1f;
+}
+.flex-container{
+    margin: 0px auto;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    display: flex;
+}
+.flex-item{
+    flex-grow: 1;
+}
+aside.Aside2{
+    background: #fdff1f;
+}
+aside.Aside1{
+    background: #ff33e0;
+}
