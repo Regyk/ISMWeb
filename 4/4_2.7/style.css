@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    margin: 8px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: solid red 1px;
+}
+div{
+    animation: move 2s infinite ;
+    animation-direction: alternate;
+}
+@keyframes move {
+    from{
+        margin-left:0;
+    }
+    to{
+        margin-left: 600px;
+    }
+}

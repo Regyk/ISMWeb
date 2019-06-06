@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    margin: 8px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: solid red 1px;
+}
+div{
+    animation: background  3s 3;
+}
+@keyframes background {
+    to {background: red 100%}
+}

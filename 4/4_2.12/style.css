@@ -1,0 +1,54 @@
+#a{
+    width: 800px;
+    height: 800px;
+    border: red 1px solid;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+#b{
+    margin-left: 0;
+    margin-top: 0;
+    height: 50px;
+    width: 50px;
+    background: #ff3232;
+    border-radius:50%;
+    animation: move 6s infinite linear;
+}
+@keyframes move {
+from{
+    margin-left: 0;
+    margin-top: 0;
+    animation-timing-function: ease-in;
+}
+    30%{
+        margin-top: 100%;
+        animation-timing-function: ease-out;
+    }
+    55%{
+        margin-top: 60%;
+        animation-timing-function: ease-in;
+    }
+    70%{
+        margin-top: 100%;
+        animation-timing-function: ease-out;
+    }
+    85%{
+        margin-top: 87%;
+        animation-timing-function: ease-in;
+
+    }
+    95%{
+        margin-top: 100%;
+        animation-timing-function: ease-out;
+    }
+    99%
+    {
+        margin-top: 96%;
+        animation-timing-function: ease-in;
+
+    }
+    to{
+        margin-left: 100%;
+        margin-top: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+
+div.section {
+    counter-reset: headings 0;
+}
+ul{
+    list-style: none;
+}
+div.numbered { counter-reset: headings 0 subheads 0 }
+li:before {
+    counter-increment: headings 1;
+    content:"" counter(headings, decimal) ;
+}
